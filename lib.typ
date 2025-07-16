@@ -290,4 +290,17 @@
   }
   // Normal Content
   content
+
+  //Last Slide
+
+  set page(footer: none, header: none, margin: 0cm)
+  box(
+    width: 100%,
+    height: 100%,
+    fill: title-color,
+  )[
+    #align(center + horizon)[
+      #text(size: 25pt, fill: fill-color, weight: "semibold")[Obrigado!!]
+    ]
+  ]
 }
