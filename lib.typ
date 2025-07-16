@@ -51,7 +51,7 @@
     title: title,
     author: authors,
   )
-  set heading(numbering: "1.a")
+  set heading(numbering: "1.")
 
   // PAGE----------------------------------------------
   set page(
@@ -61,6 +61,7 @@
     margin: (x: 0.5 * space, top: space, bottom: 0.6 * space),
     // HEADER
     header: [
+
       #context {
         let page = here().page()
         let headings = query(selector(heading.where(level: 2)))
